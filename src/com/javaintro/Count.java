@@ -10,6 +10,7 @@ public class Count {
 	Count c2=new Count();
 	Count c3=new Count();
 	Count c4=new Count();
+	System.out.println(count);
 	
 
 	}
