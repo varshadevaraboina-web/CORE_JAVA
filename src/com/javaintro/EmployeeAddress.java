@@ -1,7 +1,10 @@
 package com.javaintro;
 
+class course{
+	String courseName="JAVA_FullStack";
+	}
 
-class Address{
+ class Address{
 	String name="varsha";
 	int rollno=103;
 	String address="Hyd";
@@ -12,6 +15,7 @@ public class EmployeeAddress {
 	byte empId=124;
 	int sal=50000;
 	Address a=new Address();
+	course c=new course();
 	
 	public static void main(String[] args) {
 		EmployeeAddress e=new EmployeeAddress();
@@ -24,6 +28,7 @@ public class EmployeeAddress {
 		System.out.println("Name:" +" "+e.a.name);
 		System.out.println("Roll Number:" +" "+e.a.rollno);
 		System.out.println("Address:" +" "+e.a.address);
+		System.out.println("courseName:" +" "+e.c.courseName);
 
 	}
 
