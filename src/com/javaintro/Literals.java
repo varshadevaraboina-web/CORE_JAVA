@@ -31,7 +31,7 @@ public class Literals {
 		
 		//Number written using the binary number (0,1)
 		//Base is 2 :      0*2^4 + 1*2^3 + 1*2^2 + 0*2^1 + 1*2^0
-		int b=01101;
+		int b=0b1101;
 		System.out.println(b);
 		
 		}
