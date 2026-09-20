@@ -27,8 +27,8 @@ public class TestMethods2 {
 
 	}
 
-	static void rectangle(int length, int breath) {
-		System.out.println(length * breath);
+	static void rectangle(int length, float f) {
+		System.out.println(length * f);
 
 	}
 
