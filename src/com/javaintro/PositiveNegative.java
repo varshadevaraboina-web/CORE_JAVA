@@ -8,10 +8,14 @@ public class PositiveNegative {
 
 		if (num > 0) {
 			System.out.println("Positive:" + num);
-		} else if (num < 0) {
+		}
+		
+		else if (num < 0) {
 			System.out.println("Negative:" + num);
-		} else {
+		}
+		
+		else {
 			System.out.println("Zero:" + num);
 		}
 	}
-}
+   }
