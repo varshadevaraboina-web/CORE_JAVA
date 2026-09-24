@@ -43,9 +43,7 @@ public class Constructors {
 		System.out.println(c.location);
 		
 		Constructors c1=new Constructors(103,"Ram","hyd");
-		
-		
-		
+	
 		
 		}
 
